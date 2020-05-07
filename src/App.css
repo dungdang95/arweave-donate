@@ -1,0 +1,18 @@
+.header {
+  margin-top: 20px;
+  background: none !important;
+  text-align: center !important;
+  font-weight: 500;
+  font-size: xx-large;
+}
+
+.footer {
+  text-align: center !important;
+}
+.layout {
+  height: calc(100% - 60px);
+  background-image: url("https://www.freepngimg.com/thumb/bitcoin/59959-node-profile-blockchain-system-bitcoin-user.png") !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  background-size: contain !important;
+}
