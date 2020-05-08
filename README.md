@@ -7,7 +7,7 @@ The website is on:
 
 ## Available Scripts
 
-In the project directory, you can run:
+In the project directory, you can run: https://fx4hnx2hrifw.arweave.net/TKPRHmVBwNlMT8jvHj7dGWRLYT2hcPBRTugaQKI5R1s
 
 ### `npm start`
 

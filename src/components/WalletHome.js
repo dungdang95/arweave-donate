@@ -19,7 +19,6 @@ const tailLayout = {
 };
 
 const WalletHome = ({ state, change, transferCrypto, txList }) => {
-  console.log(txList)
   return (
     <div>
       <Tabs defaultActiveKey="1">

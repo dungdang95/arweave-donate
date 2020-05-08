@@ -1,5 +1,4 @@
 import React from "react";
-import "./App.css";
 import Arweave from "arweave/web";
 import { Decimal } from "decimal.js";
 import {
@@ -13,8 +12,8 @@ import {
 import LoadWallet from "./components/LoadWallet";
 import ConfirmTxModal from "./components/ConfirmTxModal";
 import WalletHome from "./components/WalletHome";
-
 import { Layout, Spin, Row, Col, Card, Modal, Button } from "antd";
+import "./App.css";
 
 const { Header, Footer, Content } = Layout;
 
@@ -275,7 +274,9 @@ class App extends React.Component {
               {this.walletDiv()}
             </Spin>
           </Content>
-          <Footer className="footer">Arweave Donate ©2020 Created by Dung Dang</Footer>
+          <Footer className="footer">
+            Arweave Donate ©2020 Created by Dung Dang
+          </Footer>
         </Layout>
       </Layout>
     );
